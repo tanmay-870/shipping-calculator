@@ -1,4 +1,5 @@
 def calculate_shipping(weight):
-    return weight * 10
+    rate_per_kg = 10
+    return weight * rate_per_kg
 
-print(calculate_shipping(5))
+print("Shipping Cost:", calculate_shipping(5))
